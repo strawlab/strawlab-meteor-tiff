@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
-  api.addFiles('strawlab:meteor-tiff.js');
+  api.addFiles('tiff.min.js');
 });
 
 Package.onTest(function(api) {
